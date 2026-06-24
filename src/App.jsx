@@ -1,4 +1,5 @@
 import { Box, Container, Typography, Divider } from '@mui/material';
+import ButtonSection from './components/sections/ButtonSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Typography>
         <Divider sx={{ mb: 6 }} />
 
+        <ButtonSection />
         {/* 섹션 추가 위치 — 순차적으로 아래에 삽입 */}
 
       </Container>
